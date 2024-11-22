@@ -6,7 +6,7 @@ Rock.setAttribute("style", "color:red")
 Paper.setAttribute("style", "color:green")
 Scissors.setAttribute("style", "color:blue")
 
-
+// adding event to buttons
 Rock.addEventListener("click", () => alert(playRound(0)))
 Paper.addEventListener("click",() => alert(playRound(1)))
 Scissors.addEventListener("click",() => alert(playRound(2)))

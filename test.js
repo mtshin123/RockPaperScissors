@@ -1,4 +1,5 @@
-let number = prompt("Input stuff")
-console.log(typeof(number));
+function f() {
+    return [0, 1]
+}
 
-console.log(typeof(parseInt(number)))
+console.log(f())
